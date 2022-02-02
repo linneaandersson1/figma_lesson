@@ -3,11 +3,13 @@
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 2vw;
     line-height: 1.6;
     letter-spacing: -0.02em;
-    margin-top: 37px;
-    margin-left: 80px;
+    margin-top: 3vw;
+    margin-left: 5.5vw;
+    /* margin-top: 37px;
+    margin-left: 80px; */
 }
 
 .logo-dot { /* span, gets the .logo styling*/
@@ -15,56 +17,76 @@
 }
 
 section {
-    display: inline-block;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100%;
+}
+
+.hero-content {
+    /* margin-left: 10vw;
+    margin-right: 5vw;
+    margin-top: 3.5vw; */
+    margin: 3.5vw 0 3.5vw 10vw;
+}
+
+.hero-img {
+    margin-right: 8vw;
+    margin-left: 5vw;
 }
 
 .hero-heading {
     font-family: 'Ramaraja', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 72px;
-    line-height: 76px;
-    /* or 106% or 1.06*/
+    font-size: 5vw;
+    line-height: 1.06;
+    /* or 106% or 76px*/
     letter-spacing: 0.02em;
     color: #1B0A42;
     max-width: 495px;
     width: 100%;
-    margin-top: 203px;
-    margin-left: 200px;
+    margin: 0%;
+    /* margin-top: 203px; */
+    /* margin-left: 12.5vw; */
 }
 
 .hero-text {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
-    /* or 160% */
+    font-size: 1.4vw;
+    line-height: 1.6;
+    /* 32px or 160% */
     letter-spacing: 0.02em;
     color: #9A9A9A;
     max-width: 583px;
     width: 100%;
-    margin-top: 10px;
-    margin-left: 200px;
+    /* margin-left: 12.5vw; */
 }
 
 .CTA {
-    width: 152px;
-    height: 64px;
+    width: 10.2vw;
+    height: 4vw;
     background-color: #A3DC00;
-    margin-top: 50px;
-    margin-left: 200px;
+    margin-top: 2.5vw;
+    /* margin-left: 12.5vw; */
     border-radius: 6px;
     border: none;
     color: #FFF;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 16px;
-    line-height: 32px;
-    /* or 200% */
+    font-size: 1.12vw;
+    line-height: 200%;
+    /* 32px or 200% */
     text-align: center;
     letter-spacing: 0.02em;
+}
+
+img {
+    max-width: 756px;
+    width: 100%;
+    /*height: 638px;  the image is too big for my screen to be inline so had to size it*/
 }
 
 /* .hero-heading, .hero-text, .CTA {
